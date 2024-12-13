@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMG Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #555;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 90%;
+            height: auto;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to LMG Business</h1>
+    <p>Detroit, Michigan | Phone: 313.205.1950</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>LMG Business is based in Detroit, Michigan, providing exceptional services and projects tailored to meet client needs.</p>
+</section>
+
+<section id="projects">
+    <h2>Our Projects</h2>
+    <p>Take a look at some of our recent projects:</p>
+    <img src="20230912_094801.jpg" alt="Project 1">
+    <img src="20240331_221209.jpg" alt="Project 2">
+    <img src="file-JMBj8s8Ys44zyugP15ukof.jpg" alt="Project 3">
+    <img src="IMG_5137.jpg" alt="Project 4">
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 313.205.1950</p>
+    <p>Location: Detroit, Michigan</p>
+    <p>Email: <a href="mailto:info@lmgbusiness.com">info@lmgbusiness.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 LMG Business. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
